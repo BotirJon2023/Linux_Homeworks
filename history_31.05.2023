@@ -1,0 +1,30 @@
+   0 pwd
+   1 cd /home
+   2 mkdir /home/user
+   3 cd /home/user
+   4 mkdir /home/user/start
+   5 cd /home
+   6 mkdir opt
+   7 mkdir /home/opt/task
+   8 cd /root
+   9 tree
+  10 cd /home
+  11 tree
+  12 touch /home/user/start/1.txt
+  13 echo "Start" >> /home/user/start/1.txt
+  14 cat /home/user/start/1.txt
+  15 date
+  16 echo "Thu Jun  1 00:36:53 UTC 2023" >> /home/user/start/1.txt
+  17 cat /home/user/start/1.txt
+  18 cd /home/user/start
+  19 cp 1.txt /home/opt/task/start.txt
+  20 cd /home
+  21 tree
+  22 df
+  23 df -h
+  24 df -h | wc -l | tail (-4)
+  25 df -h | tail (-4)
+  26 df -h | tail -4
+  27 df -h | tail -4 >> /home/opt/task/start.txt
+  28 cat /home/opt/task/start.txt
+  29 history > history_31.05.2023
