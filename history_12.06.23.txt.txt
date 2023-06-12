@@ -1,0 +1,11 @@
+   0 pwd
+   1 vi /tmp/file.txt
+   2 df -h | head -3
+   3 df -h | head -3 > /tmp/file.txt
+   4 ls -l /tmp/file.txt
+   5 chmod g+w /tmp/file.txt
+   6 chmod u-r /tmp/file.txt
+   7 chmod o+x /tmp/file.txt
+   8 ls -l /tmp/file.txt
+   9 cat /tmp/file.txt
+  10 history > history_12.06.23.txt
